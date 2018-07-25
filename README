@@ -26,13 +26,13 @@ CMakeLists.txt Code
 cmake_minimum_required (VERSION 3.2)
 project (week01)
 set (CMAKE_CXX_STANDARD 11)
-add_exectuable (hello hello.cpp)
+add_executable (hello hello.cpp)
 
 hello.cpp Code
 #include <iostream> //pre-processor. include standard library, send receive text from terminal
 
 int main () {
-    std::cout << "Hello World" << sted:endl;
+    std::cout << "Hello World" << std::endl;
     return 0;
 }
 
@@ -40,6 +40,7 @@ Terminal Commands
 
 $ mkdir build
 $ ls            //list contents of directory
-$cd build/
-
-
+$ cd build/
+$ cmake ..      //run the make file in directory build (there is space between cmake and ..)
+$ make
+$ ./hello       //Runs the Hello World code. Should output Hello World
