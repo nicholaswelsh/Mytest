@@ -1,0 +1,30 @@
+This is a git repo
+
+Terminal Commands
+
+$ mkdir week01      //makes a directory named 'week01'
+$ cd week01/        //change directory to week01 -> "/" is needed
+$ gedit hello.cpp   //Makes & opens gedit with a file called 'hello.cpp' in directory week01.
+$ gedit CMakeLists.txt
+
+CMakeLists.txt Code
+cmake_minimum_required (VERSION 3.2)
+project (week01)
+set (CMAKE_CXX_STANDARD 11)
+add_exectuable (hello hello.cpp)
+
+hello.cpp Code
+#include <iostream> //pre-processor. include standard library, send receive text from terminal
+
+int main () {
+    std::cout << "Hello World" << sted:endl;
+    return 0;
+}
+
+Terminal Commands
+
+$ mkdir build
+$ ls            //list contents of directory
+$cd build/
+
+
