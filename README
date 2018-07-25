@@ -1,4 +1,19 @@
-This is a git repo
+This is a git repo.
+
+Git Commands
+$ git config --global user.name "username"
+$ git config --global user.email "id@student.uts.edu.au"
+$ git init Mytest
+$ cd Mytest
+$ gedit README
+$ git add README
+$ git commit -m "First Readme"
+
+Open github browser and Create New Repo named "Mytest"
+$ git remote add origin https://github.com/USERNAME/Mytest.git
+$ git push -u origin master
+
+
 
 Terminal Commands
 
