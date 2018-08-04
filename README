@@ -1,4 +1,5 @@
 This is a git repo.
+Instructions on how to connect to git and Terminal commands for Hello World.
 
 Git Commands
 $ git config --global user.name "username"
@@ -13,6 +14,12 @@ Open github browser and Create New Repo named "Mytest"
 $ git remote add origin https://github.com/USERNAME/Mytest.git
 $ git push -u origin master
 
+Clone or Download from from Github - copy link URL (Green Button on page)
+Choose directory
+$ cd Mechatronics
+$ git clone <URL>
+$ cd <REPOSITORY-NAME>
+$ git status        //git status is a command you will use often to verify the current state of your repository and the files it contains. 
 
 
 Terminal Commands
